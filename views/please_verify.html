@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Email Verification</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .container {
+            text-align: center;
+            padding: 50px;
+            background-color: #444;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            animation: rotateFadeIn 1.5s ease-in-out;
+            width: 60%;
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.4rem;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background-color: #f39c12;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #e67e22;
+            color: #fff;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes rotateFadeIn {
+            0% {
+                opacity: 0;
+                transform: rotate(-90deg) translateY(-20px);
+            }
+
+            50% {
+                opacity: 0.5;
+                transform: rotate(-45deg) translateY(-10px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: rotate(0deg) translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Verify Your Email</h1>
+        <p>To continue using G1, please verify your email.</p>
+
+    </div>
+</body>
+
+</html>

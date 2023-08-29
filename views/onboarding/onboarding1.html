@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/onboarding1.css">
+    <title>Onboarding</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Onboarding</h1>
+        <h1>Step 1</h1>
+        <form action="/user/onboarding1" method="POST">
+            <div class="card">
+                <i class="fas fa-users icon"></i>
+                <h2>What will you use it for?</h2>
+                <select name="purpose" id="purpose">
+                    <option value="FAMILY">FAMILY</option>
+                    <option value="FRIENDS">FRIENDS</option>
+                    <option value="COMMUNITY">COMMUNITY</option>
+                </select>
+            </div>
+            <div class="card">
+                <i class="fas fa-chart-bar icon"></i>
+                <h2>Community size</h2>
+                <select name="communitySize" id="communitySize">
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+            </div>
+            <button type="submit" class="continue-btn"><i class="fas fa-arrow-right"></i> Continue</button>
+        </form>
+    </div>
+</body>
+
+</html>
